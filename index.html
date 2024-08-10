@@ -1,0 +1,48 @@
+<!-- my excercises for js html -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Flexbox Teaching tool</title>
+ </head>
+ <body>
+    <div class="container D-flex f-direction">
+      
+        <div class="holder flex bkg-color ">
+         <div class="min-box box-model yello"></div>
+            <div class="min-box box-model red"></div>
+            <div class="min-box box-model green"></div>
+        </div>
+
+       <div class="c-2 ">
+        <button class="bkg-color" onclick="start()">Justify-content: start;</button>
+        <button class="bkg-color" onclick="center()">Justify-content: center;</button>
+        <button class="bkg-color" onclick="end()">Justify-content: end;</button>
+        <button class="bkg-color" onclick="spacebetween()">Justify-content: space between;</button>
+        <button class="bkg-color" onclick="spacearound()">Justify-content: space around;</button>
+        <button class="bkg-color" onclick="spaceevenly()">Justify-content: space-evenly;</button>
+        <button class="bkg-color" onclick=" stretch()">Align-items: stretch;</button>
+      </div>
+
+      <!-- my align items -->
+
+      <div class="c-3  ">
+         <button class="bkg-color" onclick="Astart()">Align-items: start;</button>
+         <button class="bkg-color" onclick="Acenter()">Align-items: center;</button>
+         <button class="bkg-color" onclick="Aend()">Align-items: end;</button>
+         <button class="bkg-color" onclick="Astretch()">Align-items: strech;</button>
+       </div>
+
+      <div class="last-div">
+         <button onclick="row()" class="bkg-color">Flex-direction: row</button>
+         <button onclick="column()" class="bkg-color">Flex-directon: column</button>
+      </div>
+
+
+    </div>
+
+    <script src="index.js"></script>
+ </body>
+ </html>
